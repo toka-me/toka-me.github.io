@@ -304,6 +304,10 @@ body {
   height: 300px;
   position: relative;
   border-bottom: 1px solid #ddd;
+  background: -webkit-linear-gradient(transparent, #000);
+  background: -moz-linear-gradient(transparent, #000);
+  background: -ms-linear-gradient(transparent, #000);
+  background: linear-gradient(transparent, #000);
 }
 #header:before,
 #header:after {
